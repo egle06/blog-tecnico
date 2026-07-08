@@ -1,4 +1,5 @@
-#Cómo resolví un desafío técnico aplicando control de versiones y feedback radicalmente sincero
+# Cómo resolví un desafío técnico aplicando control de versiones y feedback radicalmente sincero
+
 ##Contexto:
 Durante el desarrollo de una aplicación interna para visualizar reportes y análisis de datos, implementé un módulo de autenticación básico para controlar el acceso. El sistema usaba un flujo de login con email y contraseña, y generaba un token temporal para validar las sesiones.
 
@@ -34,11 +35,3 @@ Revisé los logs del backend y confirmé que el error ocurría cuando ciertos ca
 -Validar datos antes de generar tokens evita errores silenciosos.
 -Los mensajes de error deben ser útiles para usuarios y desarrolladores.
 -Documentar el flujo facilita debugging y mantenimiento.
-
-#Evidencia de control de versiones:
-Commit: https://github.com/usuario/blog-tecnico/commit/abc123
-PR: https://github.com/usuario/blog-tecnico/pull/1
-Repo: https://egle06.github.io/blog-tecnico/
-
-#Reflexión sobre feedback radicalmente sincero
-Recibí feedback directo sobre la falta de validaciones y la poca claridad de los mensajes de error. En lugar de justificarme, lo tomé como una oportunidad para mejorar. Practiqué feedback radicalmente sincero al reconocer que el flujo estaba mal planteado y necesitaba revisión. Esto me permitió entregar una solución más robusta y profesional.
